@@ -4,7 +4,7 @@ const per_page = 12;
 // let totalPages = 0;
 
 export default async function fetchImages(query, page, totalPages) {
-  const API_KEY = '36135739-b9df89b3b4d7783a74305e6f0gigig';
+  const API_KEY = '36135739-b9df89b3b4d7783a74305e6f0';
   const params = new URLSearchParams({
     key: API_KEY,
     image_type: 'photo',
